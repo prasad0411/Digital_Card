@@ -1,27 +1,21 @@
 import 'package:flutter/material.dart';
-// ignore: unused_import
-import 'package:flutter_application/main.dart';
 
-void main() 
-{
+void main() {
   runApp(
-   MaterialApp( 
-     debugShowCheckedModeBanner: false,
-      home: Scaffold( 
+    MaterialApp(
+      debugShowCheckedModeBanner: false, // Disables the debug banner
+      home: Scaffold(
         appBar: AppBar(
-          title: Text("I Am Rich"),
-          backgroundColor: Colors.black
+          title: Text("I Am Rich"), // Title for the app bar
+          backgroundColor: Colors.black, // Background color of the app bar
         ),
-         backgroundColor: Colors.purple,
-         body: Center(
-           child: 
-             Image(
-              image: NetworkImage('https://flutter.dev/images/flutter-logo-sharing.png')
-              ),
-              ),
+        backgroundColor: Colors.purple, // Background color of the screen
+        body: Center(
+          child: Image(
+            image: NetworkImage('https://flutter.dev/images/flutter-logo-sharing.png'), // Image widget with a network image
           ),
+        ),
       ),
+    ),
   );
 }
-
-
