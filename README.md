@@ -1,16 +1,37 @@
-# flutter_application
+Here's a breakdown of the code:
 
-A new Flutter project.
+Import Statements:
 
-## Getting Started
+The code imports the necessary dependencies from the Flutter framework.
 
-This project is a starting point for a Flutter application.
+Main Function:
 
-A few resources to get you started if this is your first Flutter project:
+The main() function is the entry point of the application.
+It calls the runApp() function to start the app and pass it a MaterialApp widget.
+MaterialApp Widget:
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+The MaterialApp widget configures the overall theme and behavior of the app.
+debugShowCheckedModeBanner is set to false to hide the debug banner in the app.
+The home parameter specifies the widget to be displayed as the home screen of the app.
+Scaffold Widget:
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+The Scaffold widget represents a basic material design layout structure for the app.
+It provides an app bar and a body for content.
+AppBar Widget:
+
+The AppBar widget represents the top app bar that contains the title.
+The title parameter sets the title text to "I Am Rich".
+The backgroundColor parameter sets the background color of the app bar to black.
+backgroundColor Property:
+
+The backgroundColor property of the Scaffold widget sets the background color of the entire screen to purple.
+Center Widget:
+
+The Center widget aligns its child widget in the center of the screen.
+It is used as the body of the Scaffold widget.
+Image Widget:
+
+The Image widget displays an image.
+The image parameter is set to NetworkImage with the URL of the image to be displayed.
+In this case, the image is fetched from 'https://flutter.dev/images/flutter-logo-sharing.png'.
+This code creates a simple Flutter app that displays an image centered on a purple background with a black app bar containing the title "I Am Rich".
