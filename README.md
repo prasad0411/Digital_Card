@@ -23,10 +23,10 @@ AppBar Widget:
 
 The AppBar widget represents the top app bar that contains the title.
 The title parameter sets the title text to "I Am Rich".
-The backgroundColor parameter sets the background color of the app bar to black.
+The background color parameter sets the background color of the app bar to black.
 backgroundColor Property:
 
-The backgroundColor property of the Scaffold widget sets the background color of the entire screen to purple.
+The background color property of the Scaffold widget sets the background color of the entire screen to purple.
 Center Widget:
 
 The Center widget aligns its child widget in the center of the screen.
