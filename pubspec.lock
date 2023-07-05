@@ -3,7 +3,7 @@
 packages:
   async:
     dependency: transitive
-    description:
+    description: 
       name: async
       url: "https://pub.dartlang.org"
     source: hosted
