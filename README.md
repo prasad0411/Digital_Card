@@ -1,5 +1,5 @@
 This code is a basic Flutter application that creates a screen with a purple background color. The screen contains an app bar at the top with a black background color and the title "I Am Rich". In the body of the screen, there is a single child widget which is an Image widget displaying the Flutter logo.
-
+ 
 Here's a breakdown of the code:
 
 Import Statements:
